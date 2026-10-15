@@ -12,6 +12,7 @@
 <style>
 body{margin:0;background:#FBF4E6;color:#2B1620;font-family:'DM Sans',system-ui,sans-serif}
 a{color:#B80F6B}a:hover{color:#14213D}
+@media (max-width:640px){.hdr{padding:16px 20px !important;gap:6px !important}.logo{font-size:34px !important}.byline{font-size:12px !important;letter-spacing:.3px !important;max-width:none !important}.nav{gap:20px !important;font-size:15px !important}.navbtn{display:none !important}.hero{padding:20px 20px 48px !important;gap:24px !important}}
 </style>
 
 </head>
@@ -20,20 +21,20 @@ a{color:#B80F6B}a:hover{color:#14213D}
 <div style="background:#FBF4E6;color:#2B1620;font-family:'DM Sans',system-ui,sans-serif;font-size:18px;line-height:1.6">
 
 <!-- HEADER -->
-<header style="max-width:1200px;margin:0 auto;padding:24px 32px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
+<header class="hdr" style="max-width:1200px;margin:0 auto;padding:24px 32px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
 <a href="#top" style="text-decoration:none;display:flex;flex-direction:column;line-height:1.1">
-<span style="font-family:'Oleo Script Swash Caps',serif;font-size:40px;color:#14213D">With My Voice</span>
-<span style="font-size:13px;letter-spacing:1px;color:#B80F6B;margin-top:4px;max-width:520px">Expert support on US college application essays</span>
+<span class="logo" style="font-family:'Oleo Script Swash Caps',serif;font-size:40px;color:#14213D">With My Voice</span>
+<span class="byline" style="font-size:13px;letter-spacing:1px;color:#B80F6B;margin-top:4px;max-width:520px">Expert support on US college application essays</span>
 </a>
-<nav style="display:flex;flex-wrap:wrap;align-items:center;gap:28px;font-size:16px;font-weight:500">
+<nav class="nav" style="display:flex;flex-wrap:wrap;align-items:center;gap:28px;font-size:16px;font-weight:500">
 <a href="#hurdles" style="color:#14213D;text-decoration:none">Essay Support</a>
 <a href="#about" style="color:#14213D;text-decoration:none">About Me</a>
-<a href="mailto:editor.emmaberat@gmail.com?subject=Free%2020-minute%20call" style="background:#B80F6B;color:#ffffff;text-decoration:none;padding:12px 22px;border-radius:8px;font-weight:700">Get in touch</a>
+<a class="navbtn" href="mailto:editor.emmaberat@gmail.com?subject=Free%2020-minute%20call" style="background:#B80F6B;color:#ffffff;text-decoration:none;padding:12px 22px;border-radius:8px;font-weight:700">Get in touch</a>
 </nav>
 </header>
 
 <!-- HERO -->
-<section id="top" style="max-width:1200px;margin:0 auto;padding:48px 32px 72px;display:flex;flex-wrap:wrap;align-items:center;gap:56px">
+<section id="top" class="hero" style="max-width:1200px;margin:0 auto;padding:48px 32px 72px;display:flex;flex-wrap:wrap;align-items:center;gap:56px">
 <div style="flex:1 1 460px;min-width:0;max-width:900px">
 <h1 style="margin:0;font-family:'Oleo Script Swash Caps',serif;font-weight:400;font-size:clamp(44px,6vw,78px);line-height:1.1;color:#14213D">Your essay, your ideas, <span style="color:#B80F6B">your contribution.</span></h1>
 <p style="margin:28px 0 0;font-size:22px;line-height:1.5;color:#2B1620;max-width:760px">I help students write college application essays that are excellent, exciting and entirely their own.</p>
