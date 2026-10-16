@@ -13,8 +13,8 @@
 <style>
 body{margin:0;background:#FBF4E6;color:#2B1620;font-family:'DM Sans',system-ui,sans-serif}
 a{color:#B80F6B}a:hover{color:#14213D}
-@media (max-width:640px){.brandicon{width:66px !important;height:30px !important}.hdr{padding:18px 20px 8px !important;gap:8px !important}.logo{font-size:36px !important}.byline{display:none !important}.nav{gap:22px !important;font-size:15px !important}.navbtn{display:none !important}.hero{padding:28px 20px 56px !important;gap:24px !important}.h1{font-size:40px !important;line-height:1.1 !important}.lead{font-size:19px !important;margin-top:22px !important}.lead2{display:none !important}.cta{margin-top:30px !important}.frline{display:none !important}.frmobile{display:block !important}}
-</style>
+@media (max-width:640px){.brandicon{width:66px !important;height:30px !important}.hdr{padding:18px 20px 8px !important;gap:8px !important}.logo{font-size:36px !important}.byline{display:none !important}.mk{width:48px !important;height:48px !important}.nav{gap:22px !important;font-size:15px !important}.navbtn{display:none !important}.hero{padding:28px 20px 56px !important;gap:24px !important}.h1{font-size:40px !important;line-height:1.1 !important}.lead{font-size:19px !important;margin-top:22px !important}.lead2{display:none !important}.cta{margin-top:30px !important}.frline{display:none !important}.frmobile{display:block !important}}
+.mk{width:64px;height:64px;flex:none}</style>
 
 </head>
 <body>
@@ -22,19 +22,22 @@ a{color:#B80F6B}a:hover{color:#14213D}
 <div style="background:#FBF4E6;color:#2B1620;font-family:'DM Sans',system-ui,sans-serif;font-size:18px;line-height:1.6">
 
 <!-- HEADER -->
-<header class="hdr" style="max-width:1200px;margin:0 auto;padding:24px 32px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
-<a href="#top" style="text-decoration:none;display:flex;flex-direction:column;line-height:1.1">
-<span style="display:flex;align-items:center;gap:12px">
-<span class="logo" style="font-family:'Oleo Script Swash Caps',serif;font-size:40px;color:#14213D">With My Voice</span>
-</span>
-<span class="byline" style="font-size:13px;letter-spacing:1px;color:#B80F6B;margin-top:4px;max-width:520px">Expert support on US college application essays</span>
+<div style="background:#14213D"><header class="hdr" style="max-width:1200px;margin:0 auto;padding:24px 32px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
+<a href="#top" style="text-decoration:none;display:flex;align-items:center;gap:14px;line-height:1.1"><svg class="mk" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="315 341 450 450" >
+<defs><clipPath id="lg1"><rect x="325" y="351" width="430" height="430"/></clipPath></defs>
+<g clip-path="url(#lg1)" fill="none" stroke="#FBF4E6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="540" cy="566" r="215"/><circle cx="540" cy="566" r="150"/>
+<g transform="translate(64.2 70) scale(.88) translate(200 590) scale(.5)"><path d="M50 440 L250 170 Q300 108 400 105 L520 125 L585 162 L760 150 L895 68 Q950 55 1005 78 L1040 85 Q1100 40 1170 82 L965 262 L700 432 Z" fill="#14213D" stroke="none"/><path d="M50 440 L250 170 Q300 108 400 105 L520 125 L585 162 L800 162 Q850 175 862 225 L862 255 L560 265 L515 295 M770 148 L895 72 Q960 50 1002 109 M810 150 L865 195 M865 195 L1040 85 Q1100 40 1170 82 L965 262 L700 432 M305 440 L385 345 L665 430" stroke-width="20"/></g>
+<circle cx="540" cy="566" r="105" fill="#14213D"/></g>
+<rect x="325" y="351" width="430" height="430" fill="none" stroke="#FBF4E6" stroke-width="10"/></svg><span style="display:flex;flex-direction:column"><span class="logo" style="font-family:'Oleo Script Swash Caps',serif;font-size:40px;color:#FBF4E6">With My Voice</span>
+<span class="byline" style="font-size:13px;letter-spacing:1px;color:#E3C57A;margin-top:4px;max-width:520px">Expert support on US college application essays</span></span>
 </a>
 <nav class="nav" style="display:flex;flex-wrap:wrap;align-items:center;gap:28px;font-size:16px;font-weight:500">
-<a href="#hurdles" style="color:#14213D;text-decoration:none">Essay Support</a>
-<a href="#about" style="color:#14213D;text-decoration:none">About Me</a>
+<a href="#hurdles" style="color:#FBF4E6;text-decoration:none">Essay Support</a>
+<a href="#about" style="color:#FBF4E6;text-decoration:none">About Me</a>
 <a class="navbtn" href="mailto:editor.emmaberat@gmail.com?subject=Free%2020-minute%20call" style="background:#B80F6B;color:#ffffff;text-decoration:none;padding:12px 22px;border-radius:8px;font-weight:700">Get in touch</a>
 </nav>
-</header>
+</header></div>
 
 <!-- HERO -->
 <section id="top" class="hero" style="max-width:1200px;margin:0 auto;padding:48px 32px 72px;display:flex;flex-wrap:wrap;align-items:center;gap:56px">
@@ -149,10 +152,14 @@ a{color:#B80F6B}a:hover{color:#14213D}
 <!-- FOOTER -->
 <footer style="background:#14213D;color:#FBF4E6;padding:0 32px 48px;border-top:1px solid #2B3A5E">
 <div style="max-width:1200px;margin:0 auto;padding-top:36px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:20px">
-<div style="display:flex;flex-direction:column;line-height:1.1">
-<span style="font-family:'Oleo Script Swash Caps',serif;font-size:34px;color:#FBF4E6">With My Voice</span>
-<span style="font-size:13px;letter-spacing:1px;margin-top:4px;max-width:520px">Expert support on US college application essays</span>
-</div>
+<div style="display:flex;align-items:center;gap:14px;line-height:1.1"><svg class="mk" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="315 341 450 450" >
+<defs><clipPath id="lg2"><rect x="325" y="351" width="430" height="430"/></clipPath></defs>
+<g clip-path="url(#lg2)" fill="none" stroke="#FBF4E6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="540" cy="566" r="215"/><circle cx="540" cy="566" r="150"/>
+<g transform="translate(64.2 70) scale(.88) translate(200 590) scale(.5)"><path d="M50 440 L250 170 Q300 108 400 105 L520 125 L585 162 L760 150 L895 68 Q950 55 1005 78 L1040 85 Q1100 40 1170 82 L965 262 L700 432 Z" fill="#14213D" stroke="none"/><path d="M50 440 L250 170 Q300 108 400 105 L520 125 L585 162 L800 162 Q850 175 862 225 L862 255 L560 265 L515 295 M770 148 L895 72 Q960 50 1002 109 M810 150 L865 195 M865 195 L1040 85 Q1100 40 1170 82 L965 262 L700 432 M305 440 L385 345 L665 430" stroke-width="20"/></g>
+<circle cx="540" cy="566" r="105" fill="#14213D"/></g>
+<rect x="325" y="351" width="430" height="430" fill="none" stroke="#FBF4E6" stroke-width="10"/></svg><div style="display:flex;flex-direction:column"><span style="font-family:'Oleo Script Swash Caps',serif;font-size:34px;color:#FBF4E6">With My Voice</span>
+<span style="font-size:13px;letter-spacing:1px;margin-top:4px;max-width:520px">Expert support on US college application essays</span></div></div>
 <div style="display:flex;flex-wrap:wrap;gap:12px 28px;font-size:16px">
 <a href="https://www.linkedin.com/in/emmaberat" target="_blank" rel="noopener" style="color:#FBF4E6">LinkedIn</a>
 <a href="https://ebediting.com" style="color:#FBF4E6" target="_blank" rel="noopener noreferrer">ebediting.com</a>
